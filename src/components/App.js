@@ -1,15 +1,16 @@
-import React from 'react';
+import React from "react";
+import PublishMessage from "./PublishMessage";
 
 class App extends React.Component {
-  
   render() {
-     return (
+    return (
       <div>
-        React App
+        <h2>Reaction</h2>
+        <hr />
+        <PublishMessage />
       </div>
-    )
+    );
   }
 }
 
-
-export default App; 
+export default App;
